@@ -1,0 +1,57 @@
+
+h3 {
+    padding: 15px; 
+      margin: 0;
+}
+
+.cardBody {
+   border: inset whitesmoke;
+     border-width: 1px 8px 8px 1px;
+     height: 100%;
+     width: 300px;
+     padding: 15px;
+     margin: 20px;
+       
+}
+
+
+.frog {
+   height: 100%;
+     width: 300px;
+     
+}
+
+.infoBody {
+    border: 2px solid lightgrey;
+     padding: 5px;
+     margin-top: 15px;
+ 
+}
+
+.facts {
+     font-style: italic;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+
+.points {
+ font-weight: bold;
+}
+
+div {
+ background-color: red;
+ animation-name: frogcolors;
+ animation-duration: 10s;
+}
+
+@keyframes frogcolors {
+ 0%   {background-color: red;}
+ 25%  {background-color: yellow;}
+ 50%  {background-color: blue;}
+ 100% {background-color: green;}
+}
